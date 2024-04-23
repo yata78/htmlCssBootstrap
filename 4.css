@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+div h1 {
+    color: blue;
+}
+
+.special {
+    color: green;
+}
+
+h2.fancy {
+    color: red;
+}
+
+h2#gorgeous {
+    color: blue;
+}
+
+p {
+    color: blue!important;
+}
+
+h1 {
+    color: blue;
+}
+
+ul {
+    color: red;
+}

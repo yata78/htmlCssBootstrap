@@ -1,0 +1,38 @@
+詳細度
+
+h1 {
+    color: blue;
+}
+
+//こっちが優先
+div h1 {
+    color: red;
+}
+
+style属性　1000
+idセレクタ 100
+クラスセレクタ、属性セレクタ、疑似クラス 10
+要素セレクタと疑似要素 1
+
+h1 {color: red;} //1
+div h1 {color: red:} // 1 + 1
+.special {color: red} //10
+h2.special {color: red} //10 + 1
+div#special {color:red} //100 + 1
+
+詳細度を無視するには
+!important
+
+あまり推奨されていない
+
+CSSは継承されるものと継承されないものがある
+継承を回避するにはinitialを使用する
+
+ul {
+   color: initial;
+}
+
+カスケード
+詳細度が同じ場合は、CSSの最後にあるルールを優先する
+
+
