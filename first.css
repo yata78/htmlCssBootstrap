@@ -1,3 +1,32 @@
-.gray-background {
-    background-color: gray;
+p {
+    color: blue;
+    background-color: yellow;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+div {
+    background: pink;
+    padding: 20px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+p.text-red {
+    color: red;
+}
+
+.dangerous.large {
+    color: red;
+    font-size: 25px;
+}
+
+li.dengerous.large {
+    background-color: blue;
 }
