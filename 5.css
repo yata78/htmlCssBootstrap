@@ -1,0 +1,11 @@
+.blue-box {
+    width: 25vw;
+    height: 25vh;
+    background-color: blue;
+}
+
+.red-box {
+    width: calc(25vw - 10px);
+    height: calc(25vh - 10px);
+    background-color: red;
+}
