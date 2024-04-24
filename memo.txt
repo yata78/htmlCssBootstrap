@@ -63,3 +63,7 @@ vwも同様
 何らかのサイズをCSS上で数学的に計算したい場合、calc関数を使うことができる
 calc()の引数として、四則演算を含んだ数式を受け取る
 
+font-wegihtでフォントの太さ
+font-sizeでfontの大きさ
+
+xx-small x-small small medium large x-large xx-large
