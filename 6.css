@@ -1,0 +1,32 @@
+:root {
+    --color-warning: #E9C46A;
+
+    --space-small: 0.25rem;
+    --space-medium: 0.5rem;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(0%, 0%, 100%);
+}
+
+p {
+    color: rgb(0%, 0%, 100%, 0.1);
+}
+
+h2 {
+    color: #FF0000;
+}
+
+h3 {
+    color: #E6E6FA;
+    padding: var(--space-small);
+}
+
