@@ -1,0 +1,59 @@
+:root {
+    --color-angry: #e52258;
+    --color-bad: blue;
+    --color-sad: #00f0f0;
+    --color-happy: orange;
+    --color-disgudted: brown;
+    --color-surprised: yellow;
+    --color-hover: gray;
+    --small: 0.5rem;
+}
+
+.container {
+
+}
+
+.angry {
+    background-color: var(--color-angry);
+}
+
+.bad {
+    background-color: var(--color-bad);
+}
+
+.sad {
+    background-color: var(--color-sad);
+}
+
+.happy {
+    background-color: var(--color-happy);
+}
+
+.disgusted {
+    background-color: var(--color-disgudted);
+}
+
+.surprised {
+    background-color: var(--color-surprised);
+}
+
+h3 {
+    color: white;
+}
+
+.box {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding: var(--small);
+    margin: var(--small);
+}
+.box:hover {
+    
+    background-color: var(--color-hover);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}

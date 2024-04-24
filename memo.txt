@@ -67,3 +67,25 @@ font-wegihtでフォントの太さ
 font-sizeでfontの大きさ
 
 xx-small x-small small medium large x-large xx-large
+
+
+text-alignプロパティはブロックレベル要素に適用され、その中に含まれるコンテンツの水平方向の位置を決定することができる
+
+text-align: left right center justify
+
+text-alignはブロック要素内に含まれるインライン要素に対して適用される
+ブロック要素を中央ぞろえするのはtext-alignではなく他のプロパティが必要
+ブロック要素を中央ぞろえする場合は、marginプロパティのautoを使用する
+
+vertical-alignプロパティはインライン要素の垂直方向を決定する
+baseline,sub,super,top,text-top,middle,bottom,text-bottom,px,emで表すことができる
+
+パーセンテージはline-heightプロパティに対する%で指定される
+
+line-heightは行とフォントの間に存在する余白の大きさを管理する
+行の高さとフォントの高さは異なる
+
+normalは要素のフォントサイズに1.2を掛けた値
+
+
+
