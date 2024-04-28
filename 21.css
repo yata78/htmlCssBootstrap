@@ -1,0 +1,37 @@
+:root {
+    --color-sky: #D3EEFF;
+    --color-commander: pink;
+ }
+ .container {
+    /* flexboxを使ってレイアウトを実現しましょう */
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: var(--color-sky);
+    align-items: center;
+    justify-content: flex-end;
+ }
+ .commander {
+    border-radius: 50%;
+    background-color: var(--color-commander);
+ }
+
+ .first {
+    display: flex;
+    justify-content: center;
+ }
+
+ .second {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+
+ .third {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ /* 追加したdivタグにクラス名を割り当て、flexboxを使ってレイアウトを実現しましょう */

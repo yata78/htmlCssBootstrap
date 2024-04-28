@@ -1,0 +1,16 @@
+.parent {
+    width: 500px;
+    height: 350px;
+    color: white;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red {
+    background-color: salmon;
+}

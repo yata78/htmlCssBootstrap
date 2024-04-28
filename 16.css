@@ -1,0 +1,42 @@
+.parent {
+    margin: 20px 0;
+    width: 500px;
+    height: 350px;
+    color: white;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red {
+    background-color: salmon;
+ }
+
+.bg-blue {
+    background-color: royalblue;
+ }
+ 
+ .bg-yellow {
+    background-color: gold;
+ }
+
+ .row {
+    flex-direction: row;
+ }
+
+ .row-reverse {
+    flex-direction: row-reverse;
+ }
+
+ .column {
+    flex-direction: column;
+ }

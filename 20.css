@@ -1,0 +1,18 @@
+:root {
+    --color-sky: #D3EEFF;
+    --color-commander: pink;
+ }
+ .container {
+    /* flexboxを使ってレイアウトを実現しましょう */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: var(--color-sky);
+    align-items: center;
+ }
+ .commander {
+    border-radius: 50%;
+    background-color: var(--color-commander);
+ }
