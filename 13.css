@@ -1,0 +1,27 @@
+.container {
+    background-color: yellow;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red {
+    background-color: salmon;
+}
+
+.bg-blue {
+    background-color: royalblue;
+}
+
+.bg-yellow {
+    background-color: gold;
+}
+
+.fixed {
+    position: fixed;
+    top: 23px;
+    right: 15px;
+}
+

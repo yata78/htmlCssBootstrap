@@ -1,0 +1,17 @@
+.box-1 {
+    margin: 20px 0;
+    width: 500px;
+    background-color: yellowgreen;
+    border: 1px black solid;
+    border-radius: 50%;
+}
+
+.box-2 {
+    margin: 20px 0;
+    box-sizing: border-box;
+    width: 500px;
+    background-color: yellowgreen;
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: 5em;
+}

@@ -1,0 +1,22 @@
+.box {
+    background-color: yellowgreen;
+    margin: 20px 0;
+    border-radius: 3em;
+}
+
+.border-dashed {
+    border-style: dashed;
+    border-width: 20px;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-groove {
+   border-style: groove;
+}
+
+.border-solid {
+   border-style: solid;
+}
